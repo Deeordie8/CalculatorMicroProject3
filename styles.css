@@ -1,7 +1,7 @@
 .calculator {
     max-inline-size: 22rem;
     border-radius: 10px; 
-    overflow: hidden; /* don't let other elements go outside the calculator */
+    overflow: hidden;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
   }
 
