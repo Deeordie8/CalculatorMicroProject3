@@ -6,5 +6,5 @@
   }
 
 .screen-current {
-
+    max-inline-size: 10rem;
 }
