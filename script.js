@@ -31,9 +31,9 @@ function handleButtonClick(value) {
             currentInput += '.';
         }
     } else if (value === 'del') {
-        if (currentInput !== '0') {
+        //if (currentInput !== '0') {
             currentInput = currentInput.substring(0, currentInput.length - 1);
-        }
+        //}
 // Commenting after testing a two liner to replace this code.
 // } else if (value === 'x') {
 //     currentInput += '*';
