@@ -34,34 +34,7 @@ function handleButtonClick(value) {
         if (currentInput !== '0') {
             currentInput = currentInput.substring(0, currentInput.length - 1);
         }
-    } else if (value === 'x') {
-        currentInput += '*';
-    } else if (value === '/') {
-        currentInput += '/';
-    } else if (value === '-') {
-        currentInput += '-';
-    } else if (value === '+') {
-        currentInput += '+';
-    } else if (value === '0') {
-        currentInput += '0';
-    } else if (value === '1') {
-        currentInput += '1';
-    } else if (value === '2') {
-        currentInput += '2';
-    } else if (value === '3') {
-        currentInput += '3';
-    } else if (value === '4') {
-        currentInput += '4';
-    } else if (value === '5') {
-        currentInput += '5';
-    } else if (value === '6') {
-        currentInput += '6';
-    } else if (value === '7') {
-        currentInput += '7';
-    } else if (value === '8') {
-        currentInput += '8';
-    } else if (value === '9') {
-        currentInput += '9';
+
     } else {
         currentInput = currentInput === '0' ? value : currentInput + value;
     }
