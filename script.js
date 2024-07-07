@@ -68,7 +68,7 @@ function handleButtonClick(value) {
 
 // Add event listeners to your calculator buttons
 // Example: document.getElementById('button1').addEventListener('click', () => handleButtonClick('1'));
-document.getElementById('button1').addEventListener('click', () => handleButtonClick('1'));
+document.getElementById('button1').addEventListener('click', () => handleButtonClick('1',updateScreen));
 document.getElementById('button2').addEventListener('click', () => handleButtonClick('2'));
 document.getElementById('button3').addEventListener('click', () => handleButtonClick('3'));
 document.getElementById('button4').addEventListener('click', () => handleButtonClick('4'));
