@@ -31,7 +31,9 @@ function handleButtonClick(value) {
             currentInput += '.';
         }
     } else if (value === 'del') {
-        currentInput = currentInput.substring(0, currentInput.length - 1);
+        if (currentInput != '0') {
+            currentInput = currentInput.substring(0, currentInput.length - 1);
+        }
     } else if (value === 'x') {
         currentInput += '*';
     } else if (value === '/') {
