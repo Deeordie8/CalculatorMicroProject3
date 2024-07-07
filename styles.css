@@ -8,3 +8,11 @@
 .screen-current {
     max-inline-size: 10rem;
 }
+
+.last-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
